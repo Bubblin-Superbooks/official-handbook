@@ -1,0 +1,57 @@
+@import url('//fonts.googleapis.com/css?family=Chewy');
+body {
+  background: #ffe;
+  margin: 0 0;
+  overflow: hidden;
+  color: #888;
+  font: 3.5vw/1.1 'Chewy', sans-serif;
+}
+
+.leaf {
+  height: 100%;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.inner {
+  margin: 70% auto;
+  width: 100%;
+  text-align: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.large {
+  font-size: 6vw;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  color: #00aaff;
+  outline: 0 none;
+  text-decoration: underline;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+}
