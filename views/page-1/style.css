@@ -1,6 +1,4 @@
 @import url('//fonts.googleapis.com/css?family=Chewy');
-
-
 html,
 body {
   margin: 0;
@@ -13,7 +11,7 @@ body {
   position: fixed;
   top: 5vw;
   left: 15vw;
-  color: #a55;
+  color: #888;
   width: 90vw;
 }
 
@@ -69,58 +67,58 @@ span:nth-child(8) {
 
 @keyframes blur {
   0% {
-    text-shadow: 0 0 100px #a55;
+    text-shadow: 0 0 100px #af5;
     opacity: 0;
   }
   5% {
-    text-shadow: 0 0 90px #a55;
+    text-shadow: 0 0 90px #af5;
   }
   15% {
     opacity: 1;
   }
   20% {
-    text-shadow: 0 0 0px #a55;
+    text-shadow: 0 0 0px #af5;
   }
   80% {
-    text-shadow: 0 0 0px #a55;
+    text-shadow: 0 0 0px #af5;
   }
   85% {
     opacity: 1;
   }
   95% {
-    text-shadow: 0 0 90px #a55;
+    text-shadow: 0 0 90px #af5;
   }
   100% {
-    text-shadow: 0 0 100px #a55;
+    text-shadow: 0 0 100px #af5;
     opacity: 0;
   }
 }
 
 @-webkit-keyframes blur {
   0% {
-    text-shadow: 0 0 100px #a55;
+    text-shadow: 0 0 100px #af5;
     opacity: 0;
   }
   5% {
-    text-shadow: 0 0 90px #a55;
+    text-shadow: 0 0 90px #af5;
   }
   15% {
     opacity: 1;
   }
   20% {
-    text-shadow: 0 0 0px #a55;
+    text-shadow: 0 0 0px #af5;
   }
   80% {
-    text-shadow: 0 0 0px #a55;
+    text-shadow: 0 0 0px #af5;
   }
   85% {
     opacity: 1;
   }
   95% {
-    text-shadow: 0 0 90px #a55;
+    text-shadow: 0 0 90px #af5;
   }
   100% {
-    text-shadow: 0 0 100px #a55;
+    text-shadow: 0 0 100px #af5;
     opacity: 0;
   }
 }

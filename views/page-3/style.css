@@ -44,10 +44,10 @@ body {
 }
 
 a {
-  color: #00aaff;
+  color: #00ccff;
   outline: 0 none;
-  text-decoration: underline;
   text-rendering: optimizelegibility;
+  text-decoration:none;
 }
 
 a:focus,
