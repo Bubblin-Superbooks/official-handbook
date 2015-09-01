@@ -1,9 +1,9 @@
 @import url('//fonts.googleapis.com/css?family=Chewy');
 body {
-  background: #fff;
+  background:#df6;
   margin: 0 0;
   overflow: hidden;
-  color: #888;
+  color: #666;
   font: 3.5vw/1 'Chewy', sans-serif;
 }
 
