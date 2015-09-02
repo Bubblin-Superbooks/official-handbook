@@ -1,57 +1,46 @@
-@import url('//fonts.googleapis.com/css?family=Chewy');
+@import url(//fonts.googleapis.com/css?family=EB+Garamond);
 body {
-  background: #ffe;
   margin: 0 0;
   overflow: hidden;
-  color: #666;
-  font: 3.5vw/1.1 'Chewy', sans-serif;
-}
-
-.leaf {
-  height: 100%;
+  color: #fff;
+  font-size: 3.6vw;
+  font-family: 'EB Garamond', serif;
+  background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/images/bertrand-page-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 100vh;
-  width: 80%;
-  margin: auto;
+  width: 100vw;
 }
 
 .inner {
-  margin: 70% auto;
-  width: 100%;
-  text-align: center;
+  width: 70vw;
+  float: right;
+  padding: 3vw;
 }
 
-.flex {
-  display: -webkit-box;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+cite {
+  font-style: oblique;
+  font-size: 3vw;
 }
 
-.large {
-  font-size: 6vw;
-}
-
-.uppercase {
-  text-transform: uppercase;
+.right {
+  float: right;
 }
 
 a {
-  color: #00ccff;
+  color: #22ff99;
   outline: 0 none;
+  text-decoration: none;
   text-rendering: optimizelegibility;
-  text-decoration:none;
 }
 
 a:focus,
 a:active,
 a:hover {
   outline: 0 none;
+  text-shadow: 0 0 2px #0cf;
+}
+
+a:active {
+  padding-top: 2px;
 }

@@ -1,12 +1,44 @@
 @import url('//fonts.googleapis.com/css?family=Chewy');
 @import url('//fonts.googleapis.com/css?family=Roboto:400,300');
-
+@import url('//fonts.googleapis.com/css?family=EB+Garamond');
 body {
-  background: #ffe;
+  background: #fff;
   margin: 0 0;
   overflow: hidden;
+  color: #646464;
+  font: 4vw/1.2 'EB Garamond', serif;
+}
+
+h1 {
+  margin: 4vw 0;
+  padding: 0;
   color: #666;
-  font: 3.5vw/1.1 'Chewy', sans-serif;
+  font-size: 6vw;
+  font-family: 'Chewy', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.command {
+  margin: 3.5vw 0;
+  padding: 0;
+  font: 2.6vw/1.1 'Roboto', sans-serif;
+  width: 100%;
+  text-align: center;
+  background: #ddf0ff;
+  padding: 2vw 0;
+}
+
+.code {
+  background: #f9f9a0;
+  border: 1px solid #fdc;
+  padding: 0 1vw;
+  border-radius: 1vw;
+  font: 2.7vw/1.1 'Roboto', sans-serif;
+}
+
+p {
+  margin: 3vw 0;
 }
 
 .leaf {
@@ -17,32 +49,40 @@ body {
 }
 
 .inner {
-  margin: 70% auto;
+  margin: 10% auto;
   width: 100%;
-  text-align: center;
 }
 
 .flex {
   display: -webkit-box;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
   display: flex !important;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
-.footnote {
-  text-align: center;
-  height: 20vh;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  font: 2vw/1.1 'Roboto', sans-serif;
+.justify {
+  text-align: justify;
+}
 
+a {
+  color: #00aaff;
+  outline: 0 none;
+  text-decoration: underline;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  text-shadow: 0 0 2px #0cf;
+}
+
+a:active {
+  padding-top: 2px;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }
