@@ -1,0 +1,101 @@
+@import url('//fonts.googleapis.com/css?family=Chewy');
+@import url('//fonts.googleapis.com/css?family=Roboto:400,300');
+@import url('//fonts.googleapis.com/css?family=EB+Garamond');
+body {
+  background: #fff;
+  margin: 0 0;
+  overflow: hidden;
+  color: #646464;
+  font: 4vw/1.2 'EB Garamond', serif;
+}
+
+h1 {
+  margin: 4vw 0;
+  padding: 0;
+  color: #666;
+  font-size: 6vw;
+  font-family: 'Chewy', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.command {
+  margin: 3.5vw 0;
+  padding: 0;
+  font: 2.5vw/1.1 'Roboto', sans-serif;
+  width: 100%;
+  text-align: center;
+  background: #b9d9ff;
+  ;
+  padding: 2vw 0;
+  border: 1px solid #cdf;
+}
+
+.code {
+  background: #f9f9a0;
+  border: 1px solid #fdc;
+  padding: 0 1vw;
+  border-radius: 1vw;
+  font: 2.7vw/1.1 'Roboto', sans-serif;
+}
+
+p {
+  margin: 3vw 0;
+}
+
+.leaf {
+  height: 100%;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.inner {
+  margin: 10% auto;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+a {
+  color: #0077ff;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  text-shadow: 0 0 2px #0cf;
+}
+
+a:active {
+  padding-top: 2px;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.gray {
+  background: #666;
+  color: #fff;
+  font-size: 60%;
+  padding: 1vw;
+}
