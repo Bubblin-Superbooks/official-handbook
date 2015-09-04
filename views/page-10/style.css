@@ -65,9 +65,9 @@ p {
 }
 
 a {
-  color: #00aaff;
+  color: #0077ff;
   outline: 0 none;
-  text-decoration: underline;
+  text-decoration: none;
   text-rendering: optimizelegibility;
 }
 
@@ -87,9 +87,6 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-ol {
-  list-style-type: lower-roman;
-  list-style-position: inside;
-  list-style-image: none;
-  margin: 0 1vw;
+strong {
+  font-weight: bold;
 }
