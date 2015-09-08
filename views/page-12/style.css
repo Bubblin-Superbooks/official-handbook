@@ -90,3 +90,7 @@ img {
 strong {
   font-weight: bold;
 }
+
+.right {
+  float: right;
+}
