@@ -1,6 +1,9 @@
 @import url('//fonts.googleapis.com/css?family=Chewy'); 
 @import url('//fonts.googleapis.com/css?family=Roboto:400,300'); 
 @import url('//fonts.googleapis.com/css?family=EB+Garamond');
+@import url(https://fonts.googleapis.com/css?family=Bevan); 
+@import url("//fonts.googleapis.com/css?family=PT+Sans+Narrow");
+
 
 body {
   background: #fff;
