@@ -4,13 +4,12 @@
 @import url(https://fonts.googleapis.com/css?family=Bevan); 
 @import url("//fonts.googleapis.com/css?family=PT+Sans+Narrow");
 
-
 body {
   background: #fff;
   margin: 0 0;
   overflow: hidden;
   color: #646464;
-  font: 4vw/1.2 'EB Garamond', serif;
+  font: 3.8vw/1.2 'EB Garamond', serif;
 }
 
 h1 {
@@ -67,3 +66,5 @@ p {
 .justify {
   text-align: justify;
 }
+
+img { border: 0; -ms-interpolation-mode: bicubic; }
