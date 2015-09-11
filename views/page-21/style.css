@@ -51,7 +51,7 @@ p {
 }
 
 .inner {
-  margin: 8% auto;
+  margin: 10% auto;
   width: 100%;
 }
 
@@ -87,4 +87,8 @@ a:active {
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
+}
+
+.center {
+  text-align: center;
 }

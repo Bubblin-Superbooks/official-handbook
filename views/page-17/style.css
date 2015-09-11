@@ -89,13 +89,3 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-.small {
-  font-size: 80%;
-}
-
-.gray {
-  background: #666;
-  color: #fff;
-  font-size: 60%;
-  padding: 1vw;
-}

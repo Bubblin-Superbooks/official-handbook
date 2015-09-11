@@ -22,11 +22,13 @@ h1 {
 .command {
   margin: 3.5vw 0;
   padding: 0;
-  font: 2.6vw/1.1 'Roboto', sans-serif;
+  font: 2.5vw/1.1 'Roboto', sans-serif;
   width: 100%;
   text-align: center;
-  background: #ddf0ff;
+  background: #b9d9ff;
+  ;
   padding: 2vw 0;
+  border: 1px solid #cdf;
 }
 
 .code {
@@ -87,13 +89,6 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-.small {
-  font-size: 80%;
-}
-
-.gray {
-  background: #666;
-  color: #fff;
-  font-size: 60%;
-  padding: 1vw;
+.center {
+  text-align: center;
 }

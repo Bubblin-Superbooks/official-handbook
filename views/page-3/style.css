@@ -3,7 +3,7 @@ body {
   margin: 0 0;
   overflow: hidden;
   color: #fff;
-  font-size: 3.6vw;
+  font-size: 3vw;
   font-family: 'EB Garamond', serif;
   background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/images/bertrand-page-5.jpg);
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
   width: 100vw;
 }
 
-.inner {
+.quote {
   width: 70vw;
   float: right;
   padding: 3vw;
