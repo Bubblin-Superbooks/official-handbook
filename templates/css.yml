@@ -20,16 +20,19 @@ h1 {
   font-family: 'Chewy', sans-serif;
   width: 100%;
   text-align: center;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
 }
 
 .command {
   margin: 3.5vw 0;
-  padding: 0;
-  font: 2.6vw/1.1 'Roboto', sans-serif;
-  width: 100%;
-  text-align: center;
-  background: #ddf0ff;
-  padding: 2vw 0;
+  font: 2vw/1.0 'Roboto', sans-serif;
+  width: 80vw;
+  background: #DFDFDF;
+  border: 1px solid #ccc;
+  padding: 2vw 5vw;
+  border-radius: 1vw;
 }
 
 .code {
