@@ -1,25 +1,16 @@
 <div class="leaf flex">
   <div class="inner justify ">
     <h4> Step-3: Coupling with Github </h4>
-    <p> Download, install, and launch <a href="https://desktop.github.com/">Github for desktop</a>. </p>
-    <p> If you don’t have a Github account <a href="https://github.com">register</a> yourself now to complete the app setup. Next we're going to couple <span class="code">git-scm</span> with the Github account. Replace the example name and email address in
-      the following steps with the ones you used for your Github account. </p>
+    <p> Download, install, and launch <a href="https://desktop.github.com/">Github for desktop</a>. If you don’t have a Github account <a href="https://github.com">register</a> yourself now to complete the app setup. </p>
+    <p> Next we're going to couple <span class="code">git-scm</span> with the Github account. Replace the example name and email address in the following steps with the ones you used for your Github account. </p>
     <div class="terminal turnoff">
       <p>$ git config --global user.name "YOUR NAME"</p>
       <p>$ git config --global user.email "YOUR@EMAIL.com" </p>
       <p>$ ssh-keygen -t rsa -C "YOUR@EMAIL.com" </p>
     </div>
-    <p>
-      The last command will generate an SSH key for your Github account. Copy and paste the output of the following command <a href="https://github.com/settings/ssh">over here</a> on Github.
-    </p>
-
-    <div class="terminal turnoff">
-      $ cat ~/.ssh/id_rsa.pub
-    </div>
+    <p> The last command will generate an SSH key for your Github account. Copy and paste the output of the following command <a href="https://github.com/settings/ssh">over here</a> on Github. </p>
+    <div class="terminal turnoff"> $ cat ~/.ssh/id_rsa.pub </div>
     <p> To see if it worked, type:</p>
-
-    <div class="terminal turnoff">
-      ssh -T git@github.com
-    </div>
+    <div class="terminal turnoff"> ssh -T git@github.com </div>
   </div>
 </div>
