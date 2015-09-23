@@ -104,7 +104,7 @@ a:hover {
 }
 
 a:active {
-  padding-top: 2px;
+  text-shadow: 0 0 2px #fff;
 }
 
 .right {
