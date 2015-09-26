@@ -1,21 +1,18 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <h4> Step 4: Installing Bookiza </h4>
-    <p> <a href="https://github.com/bubblin/bookiza">Bookiza</a> is a simple Command Line Interface (CLI) to help you manage your manuscript efficiently.</p>
+    <h4> Step 4: Install Nodejs</h4>
+    <p> Node.js® is a JavaScript runtime built on Chrome's <a href="https://developers.google.com/v8/">V8 JavaScript engine</a>. It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, <a href="https://www.npmjs.com/">npm</a>, is the largest ecosystem of open source libraries in the world.</p>
     <p> To set it up:</p>
     <div class="terminal turnoff">
-      <p> $ git clone --depth=1 https://github.com/bubblin/bookiza.git ~/.bookiza </p>
-      <p> $ echo "source ~/.bookiza/.bookiza" >> ~/.bash_profile </p>
+      <p> $ brew update </p>
+
+      <p> $ brew install node </p>
     </div>
-    <p> Typing <span class="code turnoff">$ bookiza -v</span> will output the following:</p>
-    <div class="terminal">
-      <p> $ bookiza version 0.1.0 # Or later</p>
-    </div>
-    <p> Now for the moment of truth, let's create our first book project with say 12 pages. </p>
+    <p> Check if correct version installed:</p>
     <div class="terminal turnoff">
-      <p> $ mkdir Books && cd Books </p>
-      <p> $ bookiza new YOUR-BOOK-NAME 12</p>
+      <p> $ brew info node </p>
+      <p> node: stable 4.1.1 (bottled), HEAD</p>
     </div>
-    <p class="small"> <i class="fa fa-thumbs-up gray"> Pro tip: </i> Use hyphenated strings to name your project, e.g: My-Own-Harry-Potter. </p>
+    <p> Next, let's install the <span class="code">Bookiza Framework</span></p>
   </div>
 </div>

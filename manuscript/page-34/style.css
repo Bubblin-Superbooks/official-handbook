@@ -1,0 +1,17 @@
+@import url('//fonts.googleapis.com/css?family=Chewy');
+body {
+  font-family: 'Chewy', sans-serif;
+  background-color: #222;
+  color: #0cf;
+  margin: 0 0;
+}
+
+canvas {
+  display: block;
+  cursor: default;
+}
+
+.scream {
+  font-size: 5vw;
+  text-align: center;
+}
