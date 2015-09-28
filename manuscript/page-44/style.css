@@ -8,6 +8,11 @@ body {
   width: 100vw;
 }
 
+.leaf {
+  position:absolute;
+  left:10%;
+}
+
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
