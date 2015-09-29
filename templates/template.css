@@ -138,6 +138,8 @@ a:active {
   animation: blink 1s linear infinite;
 }
 
+ol { list-style-type: lower-roman; list-style-position: inside; list-style-image: none; margin: 0 1vw; }
+
 @-webkit-keyframes blink {
   0% {
     background: #55ff55;
