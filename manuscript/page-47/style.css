@@ -6,8 +6,8 @@ body {
 }
 
 #fondo {
-  background: url(https://i.imgur.com/ygVpJMP.jpg) no-repeat left top;
-  background-size: cover;
+  background: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/images/sport-right.jpg) no-repeat left top;
+  background-size: 100% 100%;
   height: 100%;
   position: absolute;
   left: 0;
@@ -23,12 +23,14 @@ body {
   top: 0;
   -webkit-mask: url(https://i.imgur.com/AYJuRke.png);
   -webkit-mask-size: 3000% 100%;
-  -webkit-animation: mask-playzero 4s steps(29) infinite;
+  -webkit-animation: mask-playzero 4s steps(29) 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 #encima:before {
   content: '';
-  background: url(https://i.imgur.com/dJLNhFN.jpg) no-repeat left top;
+  background: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/images/street-right.jpg) no-repeat left top;
   background-size: cover;
   height: 100%;
   width: 100%;
