@@ -25,7 +25,7 @@ body {
 }
 
 .heading {
-  background: #536dfe;
+  background: #ff0;
   padding: 0;
   height: 20vw;
   width: 100vw;
@@ -33,7 +33,7 @@ body {
 
 .announce {
   font-size: 8vw;
-  color: white;
+  color: black;
 }
 
 h1,
@@ -86,7 +86,7 @@ p + h3,
 p + h4,
 p + h5,
 p + h6 {
-  margin-top: vw;
+  margin-top: 2vw;
 }
 
 h2 + p {
