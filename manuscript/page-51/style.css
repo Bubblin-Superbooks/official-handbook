@@ -25,14 +25,15 @@ body {
 }
 
 .heading {
-  background: yellow;
+  background: #536dfe;
   padding: 0;
   height: 20vw;
-  width:100vw;
+  width: 100vw;
 }
 
 .announce {
   font-size: 8vw;
+  color: white;
 }
 
 h1,
@@ -43,7 +44,7 @@ h5,
 h6 {
   font-family: "Trajan Pro";
   text-align: center;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-size: 4vw;
 }
 
