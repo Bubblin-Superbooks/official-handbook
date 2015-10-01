@@ -25,15 +25,14 @@ body {
 }
 
 .heading {
-  background: #ff0;
+  background: #ff6;
   padding: 0;
   height: 20vw;
   width: 100vw;
 }
 
 .announce {
-  font-size: 8vw;
-  color: black;
+  font-size: 6vw;
 }
 
 h1,
