@@ -1,3 +1,4 @@
+@import url('//fonts.googleapis.com/css?family=Fascinate');
 @import url('//fonts.googleapis.com/css?family=Chewy');
 @import url('//fonts.googleapis.com/css?family=Roboto:400,300');
 @import url('//fonts.googleapis.com/css?family=EB+Garamond');
@@ -58,7 +59,7 @@ h4 {
 }
 
 p {
-  margin: 2vw 0;
+  margin: 3vw 0;
 }
 
 .leaf {
@@ -138,7 +139,24 @@ a:active {
   animation: blink 1s linear infinite;
 }
 
-ol { list-style-type: lower-roman; list-style-position: inside; list-style-image: none; margin: 0 1vw; }
+ol {
+  list-style-type: lower-roman;
+  list-style-position: inside;
+  list-style-image: none;
+  margin: 0;
+  padding: 1vw 5vw;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.gray {
+  background: #666;
+  color: #fff;
+  font-size: 60%;
+  padding: 1vw;
+}
 
 @-webkit-keyframes blink {
   0% {
