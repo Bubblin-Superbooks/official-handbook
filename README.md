@@ -115,4 +115,9 @@ Feel free to contribute, fix or help improve the code of this book.
 6. <a href = "mailto:marvin@bubbl.in">Contact me</a> if I don't respond within 24 hours.
 
 ## License
-The content of this project itself is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/us/deed.en_US">Creative Commons Attribution 3.0 </a> license, and the underlying source code used to format and display that content is licensed under the <a href="http://opensource.org/licenses/mit-license.php">MIT license </a>.
+The content of this project itself is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/us/deed.en_US">Creative Commons Attribution 3.0 </a> license:
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/3.0/us/88x31.png)](http://creativecommons.org/licenses/by/3.0/us/)  
+This work is licensed under a [Creative Commons Attribution 3.0 United States License](http://creativecommons.org/licenses/by/3.0/us/).
+
+The the underlying sourcecode used to format and display that content is licensed under the <a href="http://opensource.org/licenses/mit-license.php">MIT license </a>.
