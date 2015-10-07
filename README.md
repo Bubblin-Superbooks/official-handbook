@@ -114,7 +114,7 @@ Feel free to contribute, fix or help improve the code of this book.
 5. Create a new Pull Request
 6. <a href = "mailto:marvin@bubbl.in">Contact me</a> if I don't respond within 24 hours.
 
-## License
+## Licenses
 [![Creative Commons License](https://i.creativecommons.org/l/by/3.0/us/88x31.png)](http://creativecommons.org/licenses/by/3.0/us/)  
 All content of this superbook is licensed under a [Creative Commons Attribution 3.0 United States License](http://creativecommons.org/licenses/by/3.0/us/).
 
