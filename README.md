@@ -1,7 +1,7 @@
 # Official-Handbook
 A quick and handy guide to writing [Superbooks](https://bubbl.in/about).
 
-The best way to start hacking your book away is by setting up [Bookiza](https://github.com/bookiza/bookiza) — The book baking tool for *the young and the restless* writers. It's only 3kb GZip'd!
+The best place to start hacking your book is our [documentation](https://github.com/bookiza/bookiza) on Bookiza — The book baking tool. 
 
 Bubblin has a great [support](https://bubbl.in/support) for all web devices and desktops; it is particularly otimized for (iPads) iOS 7+, Kindle 3 - Fire and Fire HD and Android 5.0+ tablets. 
 
