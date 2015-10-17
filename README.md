@@ -1,9 +1,9 @@
 # Official-Handbook
-A quick and handy guide to writing Superbooks on Bubblin.
+A quick and handy guide to writing [Superbooks](https://bubbl.in/about).
 
-The best way to start hacking your book is by reading the [documentation]() on [Bookiza](https://github.com/bookiza/bookiza) — the tiniest framework in the world for book writers.
+The best way to start hacking your book away is by setting up [Bookiza](https://github.com/bookiza/bookiza) — The book baking tool for *the young and the restless* writers. It's only 3kb GZip'd!
 
-Bubblin has wide [support](https://bubbl.in/support) for devices and desktops; it is specially otimized for (iPads) iOS 7+ and Android 5.0+ tablets. 
+Bubblin has a great [support](https://bubbl.in/support) for all web devices and desktops; it is particularly otimized for (iPads) iOS 7+, Kindle 3 - Fire and Fire HD and Android 5.0+ tablets. 
 
 # Superbook
 The book is live here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
