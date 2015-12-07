@@ -116,6 +116,26 @@ a:active {
   float: left;
 }
 
+ol {
+  list-style-type: lower-roman;
+  list-style-position: inside;
+  list-style-image: none;
+  margin: 0;
+  padding: 1vw 5vw;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.gray {
+  background: #666;
+  color: #fff;
+  font-size: 60%;
+  padding: 1vw;
+}
+
+
 .terminal {
   background-color: black;
   color: #55ff55;
@@ -139,24 +159,6 @@ a:active {
   animation: blink 1s linear infinite;
 }
 
-ol {
-  list-style-type: lower-roman;
-  list-style-position: inside;
-  list-style-image: none;
-  margin: 0;
-  padding: 1vw 5vw;
-}
-
-.small {
-  font-size: 80%;
-}
-
-.gray {
-  background: #666;
-  color: #fff;
-  font-size: 60%;
-  padding: 1vw;
-}
 
 @-webkit-keyframes blink {
   0% {
