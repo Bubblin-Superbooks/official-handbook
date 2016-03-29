@@ -14,8 +14,8 @@ In your local:
     $ bookiza server
     
     
-    $ bookiza register  // Give your Bubblin's credentials
-    $ bookiza publish   // Goes online! 
+    $ bookiza register  # Supply your bubblin's credentials
+    $ bookiza publish   # Boom, it goes online! 
 
 ```
 
