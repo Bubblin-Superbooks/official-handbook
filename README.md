@@ -4,7 +4,7 @@ An official guide to writing & publishing [superbooks](https://bubbl.in/faq). Th
 ## Live render
 The book is rendered here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
 
-## Hack the book
+## Hack & host
 
 In your local:
 
@@ -12,20 +12,26 @@ In your local:
     $ git clone https://github.com/bubblin/Official-Handbook.git
     $ npm install
     $ bookiza server
+    
+    
+    $ bookiza register  // Give your Bubblin's credentials
+    $ bookiza publish   // Goes online! 
 
 ```
+
+Read the [bookiza documentation](https://bookiza.github.io/docs/) for more.
 
 # Support
 
 Superbooks are generally [supported](https://bubbl.in/support) everywhere i.e. all devices, all desktops and all browsers. However, quirky behavior does appear from time to time and it is then best to report [issue](https://github.com/bookiza/bookiza/issues) immediately. 
 
-Note: Despite ubiquity, our effort with superbooks points mostly to yielding best reading experiences on tablets: i.e. iPads(iOS 7+), Kindle 3 (Silk) and Android 5.0+ phablets. Because, well, even though it's great to support desktops, smartphones, TVs and whatnot, the most ideal situation and surface for reading books is the tablet.
+Note: Despite ubiquity, the effort with superbooks points to mostly yielding best reading experience on tablets: i.e. iPads(iOS 7+), Kindle 3 (Silk) and Android 5.0+ phablets. Because, well, even though it's great to support desktops, smartphones, TVs and whatnot, the most ideal situation and surface for reading books is the tablet.
 
 
 ## Quick info:
-Bubblin is a production substrate for Superbooks. It's a commun 
+Bubblin is a production substrate for Superbooks. It's a community of book lovers.
 
-Each page of the book is a *virgin iframe* that holds your HTML, CSS and JavaScript (and external resources over CDN) together. And render it immediately, in realtime using a [codemirror](https://github.com/codemirror/CodeMirror) instances to process your code.
+Superbook is a responsive container that holds your book. Each page of the book is a *virgin iframe* that holds your HTML, CSS and JavaScript together. The iframe is rendered instantly, in realtime, using a [codemirror](https://github.com/codemirror/CodeMirror) instance to process your code.
 
 
 #### Tip-1 
