@@ -29,90 +29,36 @@ Note: Despite ubiquity, the effort with superbooks points to mostly yielding bes
 
 
 ## Quick info:
-Bubblin is a production substrate for Superbooks. It's a community of book lovers.
 
-Superbook is a responsive container that holds your book. Each page of the book is a *virgin iframe* that holds your HTML, CSS and JavaScript together. The iframe is rendered instantly, in realtime, using a [codemirror](https://github.com/codemirror/CodeMirror) instance to process your code.
+- Bubblin is a production substrate for Superbooks. Read [more](https://bubbl.in/about).
 
+- Superbook is a responsive container that holds your book. Read [more](https://bubbl.in/faq) 
 
-#### Tip-1 
-It is likely that you're going to need to [style](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) your content scalably & responsively across multiple devices - a.k.a. mobile, tablets and desktops. Feel free to use our [CSS template](https://raw.githubusercontent.com/bubblin/Official-Handbook/master/templates/template.css) and your book will work right out of the box! 
+#### How it works
 
-Observe we're using vee-dublew (`vw` or `viewport width`) here and a single break-point @media-query to handle book bifoliums easily. This means that very little CSS is required for textbooks, about 14 lines only, to scale from smartphones to desktops/HDTVs. And that the requirement of reflow for e-books is totally redundant now! :-)
-
-#### Tip-2
-It is very easy to add [Full-Bleed](https://bubbl.in/book/official-handbook-by-marvin-danig/45) images on bubblin. In fact a whole set of designer, sports & fashion magazines are possible with full-bleed visuals using just [4 lines of CSS](https://github.com/bubblin/Official-Handbook/blob/master/manuscript/page-45/style.css)! 
+Each page of the book is a *virgin iframe* (book is a collection of web pages) that holds your HTML, CSS and JavaScript together. All content is rendered instantly -- in realtime -- using a [codemirror](https://github.com/codemirror/CodeMirror) instance underneath.
 
 
-#### Tip-3
-JavaScript libraries can be flexibly [added](https://medium.com/bubblin-superbooks/head-72e72d772a8c) via the `HEAD` of the page iframe. Or you can wrap it inside `BODY` of your HTML; whatever works for you! 
+#### Templates 
+Even though the superbook container is responsive, it is likely that the content you're going to put inside it isn't. Use the following [style templates](https://github.com/bookiza/templates) and guidelines to convert your content into a responsive scalable object. 
 
-To include your own JS libraries into your book you can use [Github with proper CONTENT-TYPE headers](https://rawgit.com/) to host the sourcecode of your library. Or use another CDN service like [cdnJS](https://cdnjs.com/) or your own server or `vagrant` / `droplet`. 
+Warn: DO NOT USE 'px', 'em', or 'pt' on your book CSS. Even the best CSS frameworks are too old school to get this right. Use viewport units (`vw` or `viewport width`) instead and a single break-point @media-query at 871px to handle bifoliums and single-page mode easily. 
 
-```
-Note: Images / assets are included over https! 
-```
+Interestingly, just [10 lines of CSS](https://github.com/bookiza/templates/blob/master/novels/novella/style.css) is enough to scale content responsively across all devices in the world.
+
+
+#### Using CDN
+It is possible to add [CDN resources](https://medium.com/bubblin-superbooks/head-72e72d772a8c) to your book. Or you can wrap it within the 'body` tag of your HTML; whatever works! 
+
+
+Tip: You can use [rawgit i.e. Github with proper CONTENT-TYPE headers](https://rawgit.com/) to host your library and assets. Note all includes inside the book from external CDN or source must be served under https -- i.e. secured url
+
 
 ## The Project
-This project was automatically generated using [bookiza](https://bookiza.io) i.e. `$ bookiza new Official-Handbook 30` command and then the `manuscript` was handplugged into Bubblin for the live render.
+This project was initially generated using [bookiza bash plugin](https://github.com/bookiza/bookiza/tree/master/bash) i.e. with command `$ bookiza new Official-Handbook 30`. 
 
-This is what the TREE of the Official Handbook looks like:
+The bash plugin is now deprecated.
 
-```
-
-Official Handbook/
-├── README.md
-├── config
-├── cover
-│   ├── back.jpg
-│   ├── front.jpg
-│   ├── front.psd
-│   ├── spine.psd
-│   └── summary.html
-├── images
-│   ├── 3d-cover.png
-│   ├── Bertrand-Russell-1951-014.jpg
-│   ├── about-author.jpg
-│   └── about-author.png
-├── license.txt
-├── manuscript
-│   ├── page-1
-│   │   ├── body.html
-│   │   └── style.css
-│   ├── page-10
-│   │   ├── body.html
-│   │   └── style.css
-│   ├── page-11
-│   │   ├── body.html
-│   │   └── style.css
-│   ├── page-12
-│   │   ├── body.html
-│   │   └── style.css
-│   ├── page-13
-│   │   ├── body.html
-│   │   └── style.css
-├── templates
-│   ├── head.html
-│   ├── template.css
-│   ├── template.html
-│   └── template.js
-└── trash
-    ├── page-15
-    │   ├── body.html
-    │   └── style.css
-    ├── page-23
-    │   ├── body.html
-    │   └── style.css
-    ├── page-24
-    │   ├── body.html
-    │   └── style.css
-    ├── page-26
-    │   ├── body.html
-    │   └── style.css
-
-92 directories, 243 files
-
-
-```
 ## TODOs:
 List of things to probably do (and would appreciate immediate help on):
 
