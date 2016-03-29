@@ -1,12 +1,14 @@
-# Bubblin Official-Handbook
-A superquick guide to writing & publishing [Superbooks](https://bubbl.in/faq) on Bubblin.
+# Official-Handbook
+An official guide to writing & publishing [superbooks](https://bubbl.in/faq).
 
 This app was baked with [bookiza](http://bookiza.io) - the "book baking" tool.
 
-# Live render
+## Live render
 The book is rendered here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
 
-# Hack the book
+## Hack the book
+
+To develop on this book from your local:
 
 ```
     $ git clone https://github.com/bubblin/Official-Handbook.git
