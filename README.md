@@ -1,14 +1,12 @@
 # Official-Handbook
-An official guide to writing & publishing [superbooks](https://bubbl.in/faq).
-
-This app was baked with [bookiza](http://bookiza.io) - the "book baking" tool.
+An official guide to writing & publishing [superbooks](https://bubbl.in/faq). This book was initially written by hand and then later baked with [Bookiza](http://bookiza.io) - the "book reification" framework.
 
 ## Live render
 The book is rendered here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
 
 ## Hack the book
 
-To develop on this book from your local:
+In your local:
 
 ```
     $ git clone https://github.com/bubblin/Official-Handbook.git
@@ -17,19 +15,18 @@ To develop on this book from your local:
 
 ```
 
-Best place to read about how bookiza works is its [documentation](https://github.com/bookiza/bookiza).
-
 # Support
 
-Superbooks are generally [supported](https://bubbl.in/support) everywhere i.e. all devices, all desktops and all browsers. However, quirks do appear from time to time and it is best then to report that [issue](https://github.com/bookiza/bookiza/issues) immediately. 
+Superbooks are generally [supported](https://bubbl.in/support) everywhere i.e. all devices, all desktops and all browsers. However, quirky behavior does appear from time to time and it is then best to report [issue](https://github.com/bookiza/bookiza/issues) immediately. 
 
-Superbooks are otimized for linear reading on tablets: iPadsiOS 7+, Kindle 3 - Fire and Fire HD and Android 5.0+ tablets etc. 
+Note: Despite ubiquity, our effort with superbooks points mostly to yielding best reading experiences on tablets: i.e. iPads(iOS 7+), Kindle 3 (Silk) and Android 5.0+ phablets. Because, well, even though it's great to support desktops, smartphones, TVs and whatnot, the most ideal situation and surface for reading books is the tablet.
 
 
 ## Quick info:
-Bubblin works like a substrate for all your superbooks. Each page of a book is a virgin iframe that will hold your HTML, CSS and JavaScript (and external resources over CDN) together. And render it immediately, in realtime using a [codemirror](https://github.com/codemirror/CodeMirror) instances to process your code.
+Bubblin is a production substrate for Superbooks. It's a commun 
 
-Note: You'll require at least working knowledge of HTML, CSS and JavaScript to be able to flexibly compose pages of your book. If you're completely new to front-end development then you might want to [start here](http://www.codecademy.com/en/tracks/web) instead. 
+Each page of the book is a *virgin iframe* that holds your HTML, CSS and JavaScript (and external resources over CDN) together. And render it immediately, in realtime using a [codemirror](https://github.com/codemirror/CodeMirror) instances to process your code.
+
 
 #### Tip-1 
 It is likely that you're going to need to [style](https://github.com/bubblin/The-Solar-System/blob/master/css/page-9/style.css) your content scalably & responsively across multiple devices - a.k.a. mobile, tablets and desktops. Feel free to use our [CSS template](https://raw.githubusercontent.com/bubblin/Official-Handbook/master/templates/template.css) and your book will work right out of the box! 
