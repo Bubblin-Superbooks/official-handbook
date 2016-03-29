@@ -1,16 +1,30 @@
-# Official-Handbook
-A quick and handy guide to writing [Superbooks](https://bubbl.in/about).
+# Bubblin Official-Handbook
+A superquick guide to writing & publishing [Superbooks](https://bubbl.in/faq) on Bubblin.
 
-The best place to start hacking your book is our [documentation](https://github.com/bookiza/bookiza) on Bookiza — The book baking tool. 
+This app was baked with [bookiza](http://bookiza.io) - the "book baking" tool.
 
-Bubblin has a great [support](https://bubbl.in/support) for all web devices and desktops; it is particularly otimized for (iPads) iOS 7+, Kindle 3 - Fire and Fire HD and Android 5.0+ tablets. 
+# Live render
+The book is rendered here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
 
-# Superbook
-The book is live here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
+# Hack the book
 
-Learn how to write universal scalable, responsive and books with hyperexplanations. 
+```
+    $ git clone https://github.com/bubblin/Official-Handbook.git
+    $ npm install
+    $ bookiza server
 
-## Quick Tips:
+```
+
+Best place to read about how bookiza works is its [documentation](https://github.com/bookiza/bookiza).
+
+# Support
+
+Superbooks are generally [supported](https://bubbl.in/support) everywhere i.e. all devices, all desktops and all browsers. However, quirks do appear from time to time and it is best then to report that [issue](https://github.com/bookiza/bookiza/issues) immediately. 
+
+Superbooks are otimized for linear reading on tablets: iPadsiOS 7+, Kindle 3 - Fire and Fire HD and Android 5.0+ tablets etc. 
+
+
+## Quick info:
 Bubblin works like a substrate for all your superbooks. Each page of a book is a virgin iframe that will hold your HTML, CSS and JavaScript (and external resources over CDN) together. And render it immediately, in realtime using a [codemirror](https://github.com/codemirror/CodeMirror) instances to process your code.
 
 Note: You'll require at least working knowledge of HTML, CSS and JavaScript to be able to flexibly compose pages of your book. If you're completely new to front-end development then you might want to [start here](http://www.codecademy.com/en/tracks/web) instead. 
