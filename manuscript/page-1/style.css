@@ -1,9 +1,8 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Chewy', sans-serif;
+  font-weight: 900;
 }
 
 .title {

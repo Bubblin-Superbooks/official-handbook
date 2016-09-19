@@ -1,36 +1,83 @@
-@import url('//fonts.googleapis.com/css?family=Fascinate');
-@import url('//fonts.googleapis.com/css?family=Chewy');
-@import url('//fonts.googleapis.com/css?family=Roboto:400,300');
-@import url('//fonts.googleapis.com/css?family=EB+Garamond');
-@import url('//fonts.googleapis.com/css?family=Bevan');
-@import url('//fonts.googleapis.com/css?family=PT+Sans+Narrow');
-@import url('//fonts.googleapis.com/css?family=Lato:300');
-
 body {
-  background: #fff;
+  font-family: 'Droid Serif', serif;
+  font-size: 3vw;
+  color: #2f2f2f;
+  background-color: #f9f7f1;
+  font-family: 'Playfair Display', serif;
   margin: 0 0;
   overflow: hidden;
-  color: #777;
-  font: 3.6vw/1.2 'EB Garamond', serif;
+  color: #444;
 }
 
+
 h1 {
-  margin: 1vw 0;
+  font-weight: 900;
+  font-size: 8vw;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1.5;
+  margin: 1vw 0 2vw;
   padding: 0;
   color: #666;
-  font-size: 6vw;
-  font-family: 'Chewy', sans-serif;
   width: 100%;
   text-align: center;
 }
 
-h4 {
-  margin: 1vw 0;
-  padding: 0;
-  color: #666;
-  font-size: 4vw;
-  font-family: 'Chewy', sans-serif;
+p {
+  margin: 3vw 0;
 }
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+  color: #0a4;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  text-shadow: 0 0 1px #0c0;
+}
+
+a:active {
+  text-shadow: 0 0 1px #050;
+}
+
+/* Page specific */
+
+.leaf {
+  height: 100%;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.inner {
+  margin: 12% auto;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* Your custom styles below */
+
+
 
 .code-block {
   margin: 3vw 0;
@@ -60,62 +107,16 @@ h4 {
   margin: 0 .5vw;
 }
 
-p {
-  margin: 3vw 0;
-}
-
-.leaf {
-  height: 100%;
-  height: 100vh;
-  width: 80%;
-  margin: auto;
-}
-
-.inner {
-  margin: 12% auto;
-  width: 100%;
-}
-
-.flex {
-  display: -webkit-box;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-}
-
-.justify {
-  text-align: justify;
-}
-
-img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-
-a {
-  color: #0077ff;
-  outline: 0 none;
-  text-decoration: none;
-  text-rendering: optimizelegibility;
-}
-
-a:focus,
-a:active,
-a:hover {
-  outline: 0 none;
-  text-shadow: 0 0 2px #0cf;
-}
-
-a:active {
-  text-shadow: 0 0 2px #fff;
-}
-
 .right {
   float: right;
 }
 
 .left {
   float: left;
+}
+
+.center {
+  text-align: center;
 }
 
 ol {
