@@ -1,6 +1,10 @@
 {
-  "HTML": "html",
-  "CSS": "css",
-  "JS": "js",
-  "HEAD": "html"
+  "mode": {
+    "HTML": "html",
+    "CSS": "css",
+    "JS": "js",
+    "HEAD": "html"
+  },
+  "name": "Official-Handbook",
+  "book_id": 33
 }
