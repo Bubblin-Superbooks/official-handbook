@@ -6,4 +6,4 @@ $(document).ready(function() {
     angle: 0.5,
     perspective: 3e3
   });
-})
+});

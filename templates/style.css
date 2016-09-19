@@ -104,8 +104,9 @@ strong {
 .monospace {
   font-family: monospace;
   font-size: 2.5vw;
-  background: #eee;
-  color: #777;
+  background: #ff0;
+  border: 1px solid #ff0;  
+  color: #444;
   padding: .2vw 1vw;
   border-radius: .5vw;
   margin: 0 .5vw;
