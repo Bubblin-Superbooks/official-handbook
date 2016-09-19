@@ -1,15 +1,18 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <h4> Step 5: Installing Bookiza </h4>
-    <p> <a href="https://github.com/bubblin/bookiza">Bookiza</a> is a simple Command Line utility (CLI) and a stripped down application framework designed to manage your manuscript.</p>
-    <p> To set it up:</p>
+    <h3> Moment of truth: </h3> 
+    <p> To start a new book <span class="code">My-Awesome-Comics</span: </p>
     <div class="terminal turnoff">
-      <p> $ git clone --depth=1 https://github.com/bubblin/bookiza.git ~/.bookiza </p>
-      <p> $ echo "source ~/.bookiza/.bookiza" >> ~/.bash_profile </p>
+      <p> $ bookiza new My-Awesome-Comics --leafs 12 --template comics </p>
     </div>
-    <p> Typing <span class="code turnoff">$ bookiza -v</span> will output the following:</p>
-    <div class="terminal">
-      <p> $ bookiza version 0.1.0 # Or later</p>
+    <p> Bookiza will now create a new project with 12 fresh leafs (24 pages) inside manuscript/ folder along with a layout template <span class="code">comics</span>. It will also install all the dependencies your project requires.</p> 
+    <p> Boom! </p>
+    <p> Bookiza will next ask for your Github credentials and check your project into a new repository. </p>
+    <p> <span class="code">cd</span> into My-Awesome-Comics , and then: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza server </p>
     </div>
+    <p> It will 🔥 up your manuscript at http://localhost:4567 and watch for changes! Kaboooom!</p>
+    
   </div>
 </div>

@@ -11,11 +11,10 @@ body {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 6vw;
   width: 100%;
   text-align: center;
   font-family: 'Chewy', sans-serif;
-  margin: 6vw 0;
   color: #aaa;
 }
 
@@ -72,7 +71,6 @@ a:hover {
   width: 90%;
   clear: both;
   text-decoration: none;
-  text-shadow: none;
 }
 
 a span {

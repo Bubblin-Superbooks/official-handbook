@@ -12,13 +12,13 @@ body {
 
 h1 {
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 7vw;
   text-transform: uppercase;
   display: inline-block;
   line-height: 1.5;
   margin: 1vw 0 2vw;
   padding: 0;
-  color: #666;
+  color: #444;
   width: 100%;
   text-align: center;
 }
@@ -33,21 +33,26 @@ img {
 }
 
 a {
-  color: #0a4;
+  color: #0077ff;
   outline: 0 none;
   text-decoration: none;
   text-rendering: optimizelegibility;
 }
 
+
 a:focus,
 a:active,
 a:hover {
   outline: 0 none;
-  text-shadow: 0 0 1px #0c0;
+  color: #0a4;
 }
 
 a:active {
   text-shadow: 0 0 1px #050;
+}
+
+strong {
+  font-weight: bold;
 }
 
 /* Page specific */
@@ -78,20 +83,19 @@ a:active {
 /* Your custom styles below */
 
 
-
 .code-block {
   margin: 3vw 0;
   font: 2vw/1.0 'Roboto', sans-serif;
   width: 70vw;
-  background: #DFDFDF;
-  border: 1px solid #ccc;
+  background: #fff;
+  border: 1px solid #fac;
   padding: 2vw 5vw;
   border-radius: 1vw;
 }
 
 .code {
-  background: #f9f9a0;
-  border: 1px solid #fdc;
+  background: #fff;
+  border: 1px solid #fac;
   padding: 0 1vw;
   border-radius: 1vw;
   font: 2.7vw/1.1 'Roboto', sans-serif;
@@ -106,6 +110,8 @@ a:active {
   border-radius: .5vw;
   margin: 0 .5vw;
 }
+
+.center { text-align: center; }
 
 .right {
   float: right;

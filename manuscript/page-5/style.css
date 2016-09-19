@@ -1,11 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=EB+Garamond);
 body {
   margin: 0 0;
   overflow: hidden;
   color: #fff;
-  font-size: 3vw;
-  font-family: 'EB Garamond', serif;
-  background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/images/bertrand-page-5.jpg);
+  font-size: 2vw;
+  background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bertrand-page-5.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
@@ -13,14 +11,14 @@ body {
 }
 
 .quote {
-  width: 70vw;
+  width: 80vw;
   float: right;
   padding: 3vw;
 }
 
 cite {
   font-style: oblique;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .right {
