@@ -1,0 +1,22 @@
+.inner {
+  margin: 10% auto;
+  width: 100%;
+}
+
+a {
+  color: #0077ff;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  text-shadow: 0 0 2px #0cf;
+}
+
+a:active {
+  padding-top: 2px;
+}

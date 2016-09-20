@@ -1,8 +1,8 @@
 body {
-  background-color: #222024;
+/*  background-color: #222024;
   background: -webkit-radial-gradient(center, circle, #47414c 0%, #222024 100%);
   background: radial-gradient(circle at center, #47414c 0%, #222024 100%);
-  background-repeat: no-repeat;
+*/  background-repeat: no-repeat;
   margin: 0 0;
   overflow: hidden;
   color: #fff;
@@ -14,8 +14,7 @@ h1 {
   font-size: 6vw;
   width: 100%;
   text-align: center;
-  font-family: 'Chewy', sans-serif;
-  color: #aaa;
+  color: #444;
 }
 
 .leaf {

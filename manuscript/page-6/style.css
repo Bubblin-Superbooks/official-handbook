@@ -92,18 +92,17 @@
 
 html {
   height: 100%;
-  background-color: #222024;
+/*  background-color: #222024;
   background: -webkit-radial-gradient(center, circle, #47414c 0%, #222024 100%);
   background: radial-gradient(circle at center, #47414c 0%, #222024 100%);
   background-repeat: no-repeat;
-}
+*/}
 
 body {
   text-align: center;
-  font: normal 100% 'Chewy', sans-serif;
-  color: white;
+/*  color: white;
   background: transparent;
-}
+*/}
 
 p {
   font-size: 4vw;

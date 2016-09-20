@@ -1,14 +1,15 @@
 <div class="leaf">
   <div class="inner justify ">
-    <h4> Step-3: Coupling with Github </h4>
-    <p> Download, install, and launch <a href="https://desktop.github.com/">Github for desktop</a>. If you don’t have a Github account <a href="https://github.com">register</a> yourself now to complete the app setup. </p>
-    <p> Next we're going to couple <span class="code">git-scm</span> with the Github account. Replace the example name and email address in the following steps with the ones you used for your Github account. </p>
+    <h4> Step-1: Installing Homebrew</h4>
+    <p> First, install <a href="http://brew.sh/">Homebrew</a>. Homebrew allows us to install and compile necessary software packages easily from the source. </p>
+    <p> It comes with a handy installation script: </p>
+    <div class="terminal turnoff"> $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </div>
+    <p>Run (paste) the command above in your terminal. When it asks you to install XCode CommandLine Tools, say yes. </p>
+    <p> Once the installation is done: </p>
     <div class="terminal turnoff">
-      <p>$ git config --global user.name "YOUR NAME"</p>
-      <p>$ git config --global user.email "YOUR@EMAIL.com" </p>
-      <p>$ ssh-keygen -t rsa -C "YOUR@EMAIL.com" </p>
+      <p>$ brew update</p>
+      <p>$ brew doctor </p>
     </div>
-    <p> The last command will generate an SSH key for your Github account. Copy and paste the output of the following command <a href="https://github.com/settings/ssh">over here</a> on Github. </p>
-    <div class="terminal turnoff"> $ cat ~/.ssh/id_rsa.pub </div>
+    <p> You'll get <span class="monospace">Your system is ready to brew</span> message on the console. </p>
   </div>
 </div>
