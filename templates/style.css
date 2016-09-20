@@ -86,14 +86,14 @@ strong {
   font: 2vw/1.0 'Roboto', sans-serif;
   width: 70vw;
   background: #fff;
-  border: 1px solid #4f4;
+  border: 1px solid #fa0;
   padding: 2vw 5vw;
   border-radius: 1vw;
 }
 
 .code {
   background: #fff;
-  border: 1px solid #4f4;
+  border: 1px solid #fa0;
   padding: 0 1vw;
   border-radius: 1vw;
   font: 2.7vw/1.1 'Roboto', sans-serif;
