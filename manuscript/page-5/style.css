@@ -1,44 +1,50 @@
 body {
   margin: 0 0;
   overflow: hidden;
-  color: #fff;
-  font: 3vw/1.3 'PT Sans Narrow', sans-serif;
-  background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bertrand-page-5.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  color: #666;
+}
+
+.leaf {
+  height: 100%;
   height: 100vh;
-  width: 100vw;
+  width: 80%;
+  margin: auto;
 }
 
-.quote {
-  width: 80vw;
-  float: right;
-  padding: 3vw;
+.inner {
+  margin: 70% auto;
+  width: 100%;
+  text-align: center;
 }
 
-cite {
-  font-style: italic;
-  font-size: 2vw;
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.right {
-  float: right;
+.large {
+  font-size: 6vw;
 }
 
 a {
-  color: #22ff99;
+  color: #0077ff;
   outline: 0 none;
-  text-decoration: none;
   text-rendering: optimizelegibility;
+  text-decoration: none;
 }
 
 a:focus,
 a:active,
 a:hover {
   outline: 0 none;
-  text-shadow: 0 0 2px #0cf;
-}
-
-a:active {
-  padding-top: 2px;
 }
