@@ -1,15 +1,15 @@
-<div class="leaf">
+<div class="leaf ">
   <div class="inner justify ">
-    <h4> Step-1: Installing Homebrew</h4>
-    <p> First, install <a href="http://brew.sh/">Homebrew</a>. Homebrew allows us to install and compile necessary software packages easily from the source. </p>
-    <p> It comes with a handy installation script: </p>
-    <div class="terminal turnoff"> $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </div>
-    <p>Run (paste) the command above in your terminal. When it asks you to install XCode CommandLine Tools, say yes. </p>
-    <p> Once the installation is done: </p>
+    <h4> Step-2: Installing GIT</h4>
+    <p> Next install <a href="https://git-scm.com/documentation">git-scm</a> to manage versioning and history of your project (book). Type the following command in your terminal. </p>
     <div class="terminal turnoff">
-      <p>$ brew update</p>
-      <p>$ brew doctor </p>
+      <div>$ brew install git </div>
     </div>
-    <p> You'll get <span class="monospace">Your system is ready to brew</span> message on the console. </p>
+    <p> To verify: </p>
+    <div class="terminal turnoff">
+      <div>$ git --version</div>
+    </div>
+    <p>It will say <span class="monospace">git version 2.5.1</span> or later on your console. </p>
+    <p> You can also use other <span class="monospace">scm</span> tools like Mercurial, Subversion or Perforce for source code management but for the purpose of this book we'll go with Git because it is both nice and easy to work with.</p>
   </div>
 </div>

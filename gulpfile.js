@@ -1,7 +1,7 @@
 (((r) => {
-  // *************************************//
-  // *********** DEPENDENCIES ************//
-  // *************************************//
+	// *************************************//
+	// *********** DEPENDENCIES ************//
+	// *************************************//
 
   const gulp = r('gulp')
   const fse = r('fs-extra')
@@ -15,23 +15,23 @@
   const del = r('del')
   const delayed = r('delayed')
 
-  // Preprocessors / Transpilers
+	// Preprocessors / Transpilers
   const haml = r('gulp-haml')
   const markdown = r('gulp-markdown')
   const sass = r('gulp-sass')
   const less = r('gulp-less')
   const stylus = r('gulp-stylus')
-  // const postcss = r('gulp-postcss')
+	// const postcss = r('gulp-postcss')
 
-  // *************************************//
-  // ************ DEFAULT TASK ***********//
-  // *************************************//
+	// *************************************//
+	// ************ DEFAULT TASK ***********//
+	// *************************************//
 
   gulp.task('default', ['renderBook', 'indexPage', 'watchBook'])
 
-  // *************************************//
-  // ************ Build BUILD ************//
-  // *************************************//
+	// *************************************//
+	// ************ Build BUILD ************//
+	// *************************************//
 
   gulp.task('renderBook', ['pages', 'templates'], () => {
     const folders = getFolders(path.join('.', 'build', 'manuscript'))
@@ -43,32 +43,32 @@
 
   function getFolders (dir) {
     return fs.readdirSync(dir)
-      .filter(file => fs.statSync(path.join(dir, file)).isDirectory())
+			.filter(file => fs.statSync(path.join(dir, file)).isDirectory())
   }
 
   gulp.task('pages', () => gulp.src(path.join('manuscript', '*', '*'))
-    .pipe(gulpif(/[.]haml$/, haml()))
-    .pipe(gulpif(/[.]md$/, markdown()))
-    .pipe(gulpif(/[.]markdown$/, markdown()))
-    .pipe(gulpif(/[.]scss|sass$/, sass()))
-    .pipe(gulpif(/[.]less$/, less()))
-    .pipe(gulpif(/[.]styl$/, stylus()))
-    .pipe(gulp.dest(path.join('build', 'manuscript')))
-  )
+		.pipe(gulpif(/[.]haml$/, haml()))
+		.pipe(gulpif(/[.]md$/, markdown()))
+		.pipe(gulpif(/[.]markdown$/, markdown()))
+		.pipe(gulpif(/[.]scss|sass$/, sass()))
+		.pipe(gulpif(/[.]less$/, less()))
+		.pipe(gulpif(/[.]styl$/, stylus()))
+		.pipe(gulp.dest(path.join('build', 'manuscript')))
+	)
 
   gulp.task('templates', () => gulp.src(path.join('templates', '*.*'))
-    .pipe(gulpif(/[.]haml$/, haml()))
-    .pipe(gulpif(/[.]md$/, markdown()))
-    .pipe(gulpif(/[.]markdown$/, markdown()))
-    .pipe(gulpif(/[.]scss|sass$/, sass()))
-    .pipe(gulpif(/[.]less$/, less()))
-    .pipe(gulpif(/[.]styl$/, stylus()))
-    .pipe(gulp.dest(path.join('build', 'templates')))
-  )
+		.pipe(gulpif(/[.]haml$/, haml()))
+		.pipe(gulpif(/[.]md$/, markdown()))
+		.pipe(gulpif(/[.]markdown$/, markdown()))
+		.pipe(gulpif(/[.]scss|sass$/, sass()))
+		.pipe(gulpif(/[.]less$/, less()))
+		.pipe(gulpif(/[.]styl$/, stylus()))
+		.pipe(gulp.dest(path.join('build', 'templates')))
+	)
 
-  // *************************************//
-  // ************ Book Indexer ***********//
-  // *************************************//
+	// *************************************//
+	// ************ Book Indexer ***********//
+	// *************************************//
 
   gulp.task('indexPage', () => {
     const bookLength = book.length()
@@ -86,18 +86,18 @@
       }
     }).then((templateData) => {
       gulp.src(path.join('.', 'crust', 'index-template.html'))
-        .pipe(handlebars(templateData, {}))
-        .pipe(concat('index.html'))
-        .pipe(gulp.dest('.'))
-        .pipe(browserSync.stream())
+				.pipe(handlebars(templateData, {}))
+				.pipe(concat('index.html'))
+				.pipe(gulp.dest('.'))
+				.pipe(browserSync.stream())
     }).catch((err) => {
       console.log('Something went wrong', err)
     })
   })
 
-  // *************************************//
-  // ************ Page Renderer **********//
-  // *************************************//
+	// *************************************//
+	// ************ Page Renderer **********//
+	// *************************************//
 
   function renderPage (page) {
     const bodyPath = path.join('.', 'build', 'manuscript', page, 'body.html')
@@ -114,7 +114,7 @@
     let headContent = ''
     let templateHeadContent = ''
 
-    // TODO: Use promises here?
+		// TODO: Use promises here?
 
     if (fs.existsSync(bodyPath)) {
       bodyContent = fs.readFileSync(bodyPath, 'utf-8').toString()
@@ -138,20 +138,20 @@
     const pageTemplateData = { bodyContent, templateStyleContent, styleContent, headContent, templateHeadContent, scriptContent }
 
     gulp.src(path.join('.', 'crust', 'page-template.html'))
-      .pipe(handlebars(pageTemplateData, {}))
-      .pipe(concat(`${page}.html`))
-      .pipe(gulp.dest(path.join('.', 'build', 'renders')))
-      .pipe(browserSync.stream())
+			.pipe(handlebars(pageTemplateData, {}))
+			.pipe(concat(`${page}.html`))
+			.pipe(gulp.dest(path.join('.', 'build', 'renders')))
+			.pipe(browserSync.stream())
   }
 
-  // Glob pattern matching
+	// Glob pattern matching
   const glob = [path.join('manuscript', '*'),
     path.join('manuscript', '*', '*.+(js|css|html|markdown|md|haml|less|styl|scss|sass)')
   ]
 
-  // *************************************//
-  // ************ Page Renderer **********//
-  // *************************************//
+	// *************************************//
+	// ************ Page Renderer **********//
+	// *************************************//
 
   gulp.task('watchBook', () => {
     browserSync.init({
@@ -161,7 +161,7 @@
       logLevel: 'debug'
     })
 
-    // Watch deleted pages
+		// Watch deleted pages
     gulp.watch(path.join('trash', '*'), obj => {
       const pagePath = obj.path
       const paths = pagePath.split(path.sep)
@@ -174,7 +174,7 @@
       }
     })
 
-    // Watch everything else
+		// Watch everything else
     gulp.watch(glob, obj => {
       let page
       let pagePath = obj.path
@@ -200,20 +200,20 @@
         const stats = fs.statSync(pagePath)
         if (stats.isDirectory()) {
           gulp.src(path.join(pagePath, '*'))
-            .pipe(gulpif(/[.]haml$/, haml()))
-            .pipe(gulpif(/[.]md$/, markdown()))
-            .pipe(gulpif(/[.]markdown$/, markdown()))
-            .pipe(gulpif(/[.]scss|sass$/, sass()))
-            .pipe(gulpif(/[.]less$/, less()))
-            .pipe(gulpif(/[.]styl$/, stylus()))
-            .pipe(gulp.dest(path.join('build', 'manuscript', page)))
-            .on('end', () => {
-              renderPage(page)
-            })
+						.pipe(gulpif(/[.]haml$/, haml()))
+						.pipe(gulpif(/[.]md$/, markdown()))
+						.pipe(gulpif(/[.]markdown$/, markdown()))
+						.pipe(gulpif(/[.]scss|sass$/, sass()))
+						.pipe(gulpif(/[.]less$/, less()))
+						.pipe(gulpif(/[.]styl$/, stylus()))
+						.pipe(gulp.dest(path.join('build', 'manuscript', page)))
+						.on('end', () => {
+  renderPage(page)
+})
         }
       }, delay)
 
-    browserSync.reload()
+      browserSync.reload()
     })
 
     gulp.watch(path.join('templates', '**.*'), obj => {

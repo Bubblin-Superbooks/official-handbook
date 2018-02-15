@@ -3,34 +3,13 @@ body {
   height: 100vh;
   overflow: hidden;
   cursor: none;
-  background: #000;
+  background-color: #000;
+  background-image: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/cover/front.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 body * {
   cursor: inherit;
-}
-
-h1 {
-  color: #ffc;
-  text-align: center;
-  font-size: 6vw;
-  font-family: 'Bevan', serif;
-  text-shadow: 0 3px 0 rgba(255, 255, 55,.4);
-}
-
-h2 {
-  color: #fff;
-  font-style: italic;
-  text-align: center;
-  font-size: 5vw;
-  font-family: 'Bevan', serif;
-}
-
-.title {
-  width: 100vw;
-  color: white;
-  position:absolute;
-  top: 40vh;
-  z-index: 50000;
 }
 
 canvas {

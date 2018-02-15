@@ -1,15 +1,14 @@
-<div class="leaf ">
+<div class="leaf">
   <div class="inner justify ">
-    <h4> Step-2: Installing GIT</h4>
-    <p> Next install <a href="https://git-scm.com/documentation">git-scm</a> to manage versioning and history of your project (book). Type the following command in your terminal. </p>
+    <h4> Step-3: Coupling with Github </h4>
+    <p> Download, install, and launch <a href="https://desktop.github.com/">Github for desktop</a>. If you don’t have a Github account <a href="https://github.com">register</a> yourself now to complete the app setup. </p>
+    <p> Next we're going to couple <span class="code">git-scm</span> with the Github account. Replace the example name and email address in the following steps with the ones you used for your Github account. </p>
     <div class="terminal turnoff">
-      <div>$ brew install git </div>
+      <p>$ git config --global user.name "YOUR NAME"</p>
+      <p>$ git config --global user.email "YOUR@EMAIL.com" </p>
+      <p>$ ssh-keygen -t rsa -C "YOUR@EMAIL.com" </p>
     </div>
-    <p> To verify: </p>
-    <div class="terminal turnoff">
-      <div>$ git --version</div>
-    </div>
-    <p>It will say <span class="monospace">git version 2.5.1</span> or later on your console. </p>
-    <p> You can also use other <span class="monospace">scm</span> tools like Mercurial, Subversion or Perforce for source code management but for the purpose of this book we'll go with Git because it is both nice and easy to work with.</p>
+    <p> The last command will generate an SSH key for your Github account. Copy and paste the output of the following command <a href="https://github.com/settings/ssh">over here</a> on Github. </p>
+    <div class="terminal turnoff"> $ cat ~/.ssh/id_rsa.pub </div>
   </div>
 </div>
