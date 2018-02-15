@@ -1,9 +1,9 @@
 body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   cursor: none;
-  background: #481154;
+  background: #000;
 }
 body * {
   cursor: inherit;
@@ -36,8 +36,8 @@ h2 {
 canvas {
   z-index: 1;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
 }
@@ -113,14 +113,13 @@ canvas#main-canvas {
 .planet {
   z-index: 2;
   position: absolute;
-  bottom: 0;
+  bottom: -10vh;
   background-color: #FED705;
-  width: 600px;
-  height: 500px;
-  bottom: -350px;
+  width: 60vw;
+  height: 60vw;
   border-radius: 50%;
-  -webkit-box-shadow: inset -60px -40px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: inset -60px -40px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset -6vw -4vw 0 rgba(0, 0, 0, 0.2);
+          box-shadow: inset -6vw -4vw 0 rgba(0, 0, 0, 0.2);
 }
 .planet .crater {
   position: absolute;
