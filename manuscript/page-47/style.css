@@ -1,74 +1,44 @@
 body {
+  margin: 0 0;
+  overflow: hidden;
+  color: #fff;
+  font: 3vw/1.3 'PT Sans Narrow', sans-serif;
+  background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bertrand-page-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 100vh;
   width: 100vw;
-  padding: 0;
-  margin: 0;
 }
 
-#fondo {
-  background: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/sport-right.jpg) no-repeat left top;
-  background-size: 100% 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+.quote {
+  width: 80vw;
+  float: right;
+  padding: 3vw;
 }
 
-#encima {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  -webkit-mask: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/images/mask.png);
-  -webkit-mask-size: 3000% 100%;
-  -webkit-animation: mask-playzero 4s steps(29) 1;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
+cite {
+  font-style: italic;
+  font-size: 2vw;
 }
 
-#encima:before {
-  content: '';
-  background: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/images/street-right.jpg) no-repeat left top;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+.right {
+  float: right;
 }
 
-@-webkit-keyframes mask-playzero {
-  from {
-    -webkit-mask-position: 0 0;
-    -ms-mask-position: 0 0;
-    -moz-mask-position: 0 0;
-    -o-mask-position: 0 0;
-    mask-position: 0 0;
-  }
-  to {
-    -webkit-mask-position: 100% 0;
-    -ms-mask-position: 100% 0;
-    -moz-mask-position: 100% 0;
-    -o-mask-position: 100% 0;
-    mask-position: 100% 0;
-  }
+a {
+  color: #22ff99;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
 }
 
-@keyframes mask-playzero {
-  from {
-    -webkit-mask-position: 0 0;
-    -ms-mask-position: 0 0;
-    -moz-mask-position: 0 0;
-    -o-mask-position: 0 0;
-    mask-position: 0 0;
-  }
-  to {
-    -webkit-mask-position: 100% 0;
-    -ms-mask-position: 100% 0;
-    -moz-mask-position: 100% 0;
-    -o-mask-position: 100% 0;
-    mask-position: 100% 0;
-  }
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  text-shadow: 0 0 2px #0cf;
+}
+
+a:active {
+  padding-top: 2px;
 }

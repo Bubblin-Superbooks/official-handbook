@@ -1,9 +1,12 @@
-<div class="leaf "> 
-  <div class="inner justify "> 
-    <h1> Page Numbers</h1> 
-    <p> It's very easy to apply page numbers to a book. Click on the <span class="monospace"> Page numbers</span> option from the <span class="monospace">Page</span> submenu as shown below.</p> 
-    <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/add_page_numbers.png" width="100%" /> 
-    <p> This is a toggle switch so clicking again will remove page numbers off the book. </p> 
-    <p> Not all books need page numbers so this switch is set at <span class="monospace">off</span> by default. Turning it on will apply page numbers at the bottom edge of the book. </p> 
-  </div> 
+<div class="leaf ">
+  <div class="inner justify ">
+    <h1> Internal Links</h1>
+    <p> Internal links of the book are handled differently from the links that lead to webpages outside the book.</p>
+    <p> Use <span class="turnoff code">class="page"</span> with <span class="turnoff code">href="[page_no]"</span> like so: </p>
+    <div class="code-block"> class="page" href="20" </div>
+    <p>to link to page number <span class="monospace">20</span> of the book. </p>
+    <p> Checkout the HTML of the <a href="https://github.com/bubblin/Official-Handbook/blob/master/manuscript/page-7/body.html">index page</a> of this book, for example. Internal linking is a cool way to connect pages of a book that is already loaded in the
+      dom. </p>
+    <p>It is mandatory to use Bubblin's <a href="https://bubbl.in/standards">Internal Linking API</a> when connecting to pages within the book.</p>
+  </div>
 </div>

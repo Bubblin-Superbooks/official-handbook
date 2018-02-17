@@ -4,7 +4,7 @@ body {
   background-color: #f9f7f1;
   margin: 0 0;
   overflow: hidden;
-  color: #454545;
+  color: #667;
 }
 
 
@@ -103,7 +103,7 @@ strong {
   font-family: monospace;
   font-size: 2.5vw;
   background: #ff0;
-  border: 1px solid #ff0;  
+  border: 1px solid #ff0;
   color: #444;
   padding: .2vw 1vw;
   border-radius: .5vw;
