@@ -1,20 +1,18 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <p> Now press: </p>
-    <div class="code-block turnoff">
-      <p>Command (⌘) + I <span class="right"> # If you're on Mac</span> </p>
-      <p> CTRL + I <span class="right"> ## if you're on Windows or Linux </span></p>
+    <h3> Moment of truth: </h3> 
+    <p> To start a new book <span class="code">My-Awesome-Comics</span: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza new My-Awesome-Comics --leafs 12 --template comics </p>
     </div>
-    <p>
-      to <span class="code">initialize</span> a new book.
-    Voila, your fresh new project is ready to take off. </p>
-    <p>If you're on the iPad or iPhone simply tap the logo to open the same menu and then tap the <i class="fa fa-book large"> </i> button to initialize a new book. </p>
-
-    <hr/>
-    <p>By default there will be four blank pages (minimum) in your book folded in a bifolium. Use <i class="fa fa-arrow-circle-o-left"> / </i> <i class="fa fa-arrow-circle-o-right"> </i> arrow keys to flip around. </p>
-
-    <p> Since mobiles/tablets aren't an ideal device nor situation for writing books, our editing tools are limited to desktops only.  </p>
-    <p class="alert">
-    <i class="fa fa-info-circle"> </i> Previews are available on all devices though. </p>
+    <p> Bookiza will now create a new project with 12 fresh leafs (24 pages) inside manuscript/ folder along with a layout template <span class="code">comics</span>. It will also install all the dependencies your project requires.</p> 
+    <p> Boom! </p>
+    <p> Bookiza will next ask for your Github credentials and check your project into a new repository. </p>
+    <p> <span class="code">cd</span> into My-Awesome-Comics , and then: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza server </p>
+    </div>
+    <p> It will 🔥 up your manuscript at http://localhost:4567 and watch for changes! Kaboooom!</p>
+    
   </div>
 </div>

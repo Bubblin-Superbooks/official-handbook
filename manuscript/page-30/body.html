@@ -1,8 +1,8 @@
-<div class="leaf ">
-    <div class="inner justify ">
-        <p>To toggle the <strong> ActivePage </strong> click on the page-numbers listed on the toolbar. </p> <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/active-page.jpg" width="100%" />
-        <p> For example, clicking on [2] will activate page-2 (will turn green) and then the code playground will render output on page-2 instead.</p>
-        <p> The Code Playground will automatically combine your HTML, CSS & JavaScript and render it on the <strong>ActivePage</strong>. Note, it is possible to write the entire book from your browser itself but it is not recommended to do so. </p>
-        <p>We recommend using the <a href="26" class="page">Bookiza Framework</a> to compose and manage your manuscript from your local. </p>
-    </div>
+<div class="leaf">
+  <div class="inner justify ">
+    <p>To do it with Bookiza, in the root of your project: </p>
+    <div class="terminal turnoff"> $ bookiza remove [page_no] </div>
+    <p> Bookiza will remove the page at <span class="monospace">page_no</span> and move it to the <span class="monospace">trash/</span> folder. It will also reserialize the <span class="monospace">manuscript/</span> directory with new page_nos for pages that
+      appear after the deteleted <span class="monospace">page</span>. </p>
+  </div>
 </div>
