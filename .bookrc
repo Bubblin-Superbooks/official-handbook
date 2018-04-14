@@ -6,5 +6,6 @@
     "HEAD": "html"
   },
   "name": "Official Handbook",
+  "has_page_numbers": true,
   "book_id": 33
 }

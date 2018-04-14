@@ -197,3 +197,7 @@ ol {
     background: transparent;
   }
 }
+
+.italics{
+  font-style: italic;
+}

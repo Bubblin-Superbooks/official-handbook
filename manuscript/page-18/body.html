@@ -1,11 +1,22 @@
-<div class="leaf flex">
+<div class="leaf ">
   <div class="inner justify ">
-    <h1> New Project</h1>
-    <p> Awesome. Assuming that you have an <a href="https://bubbl.in/users/new">account</a> on Bubblin already and are excited about learning a new way to write a book, let's get started right away:
-      <p> Login into your Bubblin account and press: </p>
-      <div class="code-block turnoff">
-        <p> Command (⌘) + O <span class="right"> # If you're on Mac</span> </p>
-        <p> CTRL + O <span class="right"> ## if you're on Windows or Linux</span></p>
-      </div>
-      <p>A menu will slide <span class="code">open</span> on your left, as shown below: </p> <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-menu.jpg" width="100%" /> </div>
+    <h4> Step-6: The moment of truth…</h4>
+    <p> To create a new comic book <span class="code">my-awesome-new-comics</span> with say 24 pages: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza new my-awesome-new-comics --leafs 12 --template comics </p>
+    </div>
+    <p>
+      Bookiza will scaffold a new project with 12 fresh leafs (24 pages) inside the <span class="code">manuscript/</span> folder and apply the template layout of a <span class="code">comics</span>.
+    </p>
+    <p>
+      It will then proceed to install all the nodejs dependencies for your project and then seek your confirmation to commit the project into a Github repository. Type <span class="code">yes</span> when it does.
+    </p>
+    <p> Boom! </p>
+    <p> <span class="code">CD</span> into <span class="code">my-awesome-new-comics</span>, and start: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza server </p>
+    </div>
+    <p> It will 🔥 up your manuscript on a local server and output the book at http://localhost:4567. </p>
+
+  </div>
 </div>

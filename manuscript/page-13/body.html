@@ -1,12 +1,16 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <p> To see if it worked correctly, type:</p>
-    <div class="terminal turnoff"> $ ssh -T git@github.com </div>
-    <p> You'll get a message like this: </p>
-    <div class="terminal turnoff"> $ Hi marvin! You've successfully authenticated, but GitHub does not provide shell access.</div>
-    <p>Great! Everything is now in place to version and manage our book project (manuscripts). </p>
-    <p> There is <span class="monospace">Homebrew</span> to manage software packages, <span class="monospace">git</span> to keep track of changes and manage versioning of our project and there is <span class="monospace">Github</span>, a repository where we'll
-      save all our work. </p>
-    <p>Let's go over and finish installation of Bookiza, next. </p>
+    <h4> Step-2: Installing GIT</h4>
+    <p> Next step is to install <a href="https://git-scm.com/documentation">git-scm</a> to manage project versioning for your books. </p>
+    <p> Type the following command on your terminal. </p>
+    <div class="terminal turnoff">
+      <div>$ brew install git </div>
+    </div>
+    <p> To verify: </p>
+    <div class="terminal turnoff">
+      <div>$ git --version</div>
+    </div>
+    <p>It will say <span class="monospace">git version 2.5.1</span> or later on your console. </p>
+    <p> You can also use other <span class="monospace">scm</span> tools like Mercurial, Subversion or Perforce for source code management but for the purpose of this book we'll go with Git because it is both nice and easy to work with.</p>
   </div>
 </div>

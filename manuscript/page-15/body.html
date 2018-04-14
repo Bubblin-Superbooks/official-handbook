@@ -1,21 +1,22 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <h4> Step 5: Installing Bookiza </h4>
-    <p> <a href="https://github.com/bubblin/bookiza">Bookiza</a> is a simple Command Line utility (CLI) and a stripped down application framework designed to manage your manuscript.</p>
-    <p> To install:</p>
-    <div class="terminal">
-      <p> $ npm install bookiza -g </p>
-    </div>
+    <p> To see if it worked correctly, type:</p>
+    <div class="terminal turnoff"> $ ssh -T git@github.com </div>
+    <p> You'll get a message like this: </p>
+    <div class="terminal turnoff"> $ Hi marvin! You've successfully authenticated, but GitHub does not provide shell access.</div>
+    <p>Great! Everything is now in place to version and manage our book project (manuscripts). </p>
+    <p> There is <span class="monospace">Homebrew</span> to manage software packages, <span class="monospace">git</span> to keep track of changes and manage versioning of our project and there is <span class="monospace">Github</span>, a repository where we'll
+      save all our work. </p>
+    <p>Let's go over and finish installation of Bookiza, next. </p>
 
-    <p> Check installation:</p>
-    <div class="terminal">
-      <p> $ bookiza --version </p>
+    <div class="code italics">
+      <p>
+        It is pertinent to mention here that Bubblin doesn't care about the history of the development of your story.
+        Bubblin will <strong> hold</strong> and <strong> serve</strong> only the last published work that is supplied to the production container (Superbook). The previous versions are always OVERWRITTEN.
+      </p>
+      <p>
+        Therefore, you <em> MUST </em> use a versioning software like GIT or SVN to keep history of your work elsewhere.
+      </p>
     </div>
-    <p> Next, register client with: </p>
-    <div class="terminal">
-      <p> $ bookiza register </p>
-    </div>
-    <p> It will ask for your <a href="https://bubbl.in">Bubblin credentials</a> and connect bookiza to its sweet POST/PATCH API. </p>
-    <p> Now, you're all set… 😇</p>
   </div>
 </div>
