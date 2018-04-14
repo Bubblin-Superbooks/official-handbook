@@ -83,12 +83,13 @@ strong {
 
 .code-block {
   margin: 3vw 0;
-  font: 2vw/1.0 'Roboto', sans-serif;
+  font: 2vw/1.0 monospace, sans-serif;
   width: 70vw;
   background: #fff;
   border: 1px solid #fa0;
   padding: 2vw 5vw;
   border-radius: 1vw;
+  color: black;
 }
 
 .code {
@@ -96,7 +97,8 @@ strong {
   border: 1px solid #fa0;
   padding: 0 1vw;
   border-radius: 1vw;
-  font: 2.7vw/1.1 'Roboto', sans-serif;
+  font: 2.7vw/1.1 monospace, sans-serif;
+  color: black;
 }
 
 .monospace, .highlight {
