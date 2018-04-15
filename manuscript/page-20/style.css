@@ -19,7 +19,7 @@ th {
   background:#1b1e24;
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
-  font-size:4vw;
+  font-size:3.5vw;
   font-weight: 100;
   padding:2.4vw;
   text-align:left;
@@ -40,7 +40,7 @@ tr {
   border-top: 1px solid #C1C3D1;
   border-bottom-: 1px solid #C1C3D1;
   color:#666B85;
-  font-size:3vw;
+  font-size:2.5vw;
   font-weight:normal;
   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
@@ -77,7 +77,7 @@ tr:last-child td:last-child {
 
 td {
   background:#FFFFFF;
-  padding:2vw;
+  padding:1.5vw;
   text-align:left;
   vertical-align:middle;
   font-weight:300;

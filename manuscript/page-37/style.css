@@ -1,7 +1,25 @@
 body {
-  background: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/tiger.jpg) no-repeat transparent;
+  margin: 0 0;
+  overflow: hidden;
+  background-image: url(https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/happiness-unsplash.jpg);
   background-position: center right;
+  background-repeat: no-repeat;
   background-size: 200% 100%;
   height: 100vh;
-  width: 100vw;
+  color: white;
+ }
+
+
+.single {
+  width: 60vw;
+  right: 10vw;
+  text-align: right;
+  float: right;
+  position: absolute;
+  top: 7vh;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }

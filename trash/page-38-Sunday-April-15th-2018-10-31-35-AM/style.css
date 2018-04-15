@@ -1,0 +1,44 @@
+body {
+  margin: 0 0;
+  overflow: hidden;
+  color: #fff;
+  font: 3vw/1.3 'PT Sans Narrow', sans-serif;
+  background-image: url(//raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bertrand-page-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quote {
+  width: 80vw;
+  float: right;
+  padding: 3vw;
+}
+
+cite {
+  font-style: italic;
+  font-size: 2vw;
+}
+
+.right {
+  float: right;
+}
+
+a {
+  color: #22ff99;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  text-shadow: 0 0 2px #0cf;
+}
+
+a:active {
+  padding-top: 2px;
+}
