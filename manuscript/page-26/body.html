@@ -1,6 +1,13 @@
 <div class="leaf ">
-  <div class="inner justify ">
-    <h1> Previews</h1>
-    <p> You must be logged in as the author of the book to be able to preview a draft book or cover. </p>
-    <p> Click on the <span class="monospace">Preview book</span> button: </p> <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/preview.jpg" width="100%" /> </div>
+				<div class="inner justify ">
+								<p>To toggle the editable page click on the page-numbers listed on the toolbar (see below:). </p>
+								<img class="overlay" src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/active-page.jpg" width="100%" />
+								<p> Clicking on [2] above will activate <span class="code">page-2</span> and it will be higlighted with a green border. The code playground engine will render output to page-2 instead page-3.
+								</p>
+								<h5> Default Editor Format (on web): </h5>
+								<p> Editor on Bubblin website processes only the following format combination: </p>
+								<p class="code-block "> "mode": { "HTML": "html", "CSS": "css", "JS": "js", "HEAD": "html" }</p>
+								<p> The decision to use only HTML for book writing on web is <em>intentional</em>. If you prefer to use markdown (or any other preprocessor) we recommend you install <a href="http://bookiza.io">bookiza</a> on your local with the desired flavor on <span class="code">.bookrc</span> like so: </p>
+								<p class="code-block "> "mode": { "HTML": "markdown", "CSS": "less", "JS": "typescript", "HEAD": "haml" }</p>
+				</div>
 </div>

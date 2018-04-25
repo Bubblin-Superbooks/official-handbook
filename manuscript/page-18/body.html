@@ -1,20 +1,18 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <h4> Step-6: The moment of truth…</h4>
-    <p> To create a new comic book <span class="code">my-awesome-new-comics</span> with say 24 pages: </p>
+    <h4> Step 4: Install Nodejs</h4>
+    <p> Node is a JavaScript runtime built on Chrome's <a href="https://developers.google.com/v8/">V8 JavaScript engine</a>. It comes with a <span class="code">node package manager</span> <a href="https://www.npmjs.com/">npm</a> that can be used to install libraries locally.</p>
+    <p> To set it up:</p>
     <div class="terminal turnoff">
-      <p> $ bookiza new my-awesome-new-comics --leafs 12 --template comics </p>
+      <p> $ brew update </p>
+
+      <p> $ brew install node </p>
     </div>
-    <p>
-      Bookiza will scaffold a new project with 12 fresh leafs (24 pages) inside the <span class="code">manuscript/</span> folder and apply the template layout of a <span class="code">comics</span>.
-    </p>
-    <p>
-      It will then proceed to install all the nodejs dependencies for your project and then seek your confirmation to commit the project into a Github repository. Type <span class="code">yes</span> when it does.
-    </p>
-    <p> Boom! </p>
-    <p> <span class="code">CD</span> into <span class="code">my-awesome-new-comics</span>, and start: </p>
+    <p> Check if correct version installed:</p>
     <div class="terminal turnoff">
-      <p> $ bookiza server </p>
+      <p> $ brew info node </p>
+      <p> node: stable 6.2.0 (bottled), HEAD</p>
     </div>
+    <p> Next, let's install the <a href="http://bookiza.io">Bookiza Framework</a>.</p>
   </div>
 </div>

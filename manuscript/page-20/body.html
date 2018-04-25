@@ -1,64 +1,20 @@
 <div class="leaf ">
   <div class="inner justify ">
-    <h1> Keyboard shortcuts:</h1>
-
-<table class="table-fill">
-<thead>
-<tr>
-<th class="text-left">KEYS</th>
-<th class="text-left">ACTION</th>
-</tr>
-</thead>
-<tbody class="table-hover">
-<tr>
-<td class="text-left"> ← / → or Spacebar: </td>
-<td class="text-left"> Previous / Next page </td>
-</tr>
-<tr>
-<td class="text-left">⌘ + ←:</td>
-<td class="text-left">Start of book</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + →:</td>
-<td class="text-left">End of book</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + U:</td>
-<td class="text-left">Open menu</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + M:</td>
-<td class="text-left">New manuscript</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + S:</td>
-<td class="text-left">Save changes</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + P:</td>
-<td class="text-left">Publish book</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + K:</td>
-<td class="text-left">See shortcuts</td>
-</tr>
-<tr>
-<td class="text-left">⌘ + E:</td>
-<td class="text-left">Go home</td>
-</tr>
-
-<tr>
-<td class="text-left">⌘ + J:</td>
-<td class="text-left">Search</td>
-</tr>
-
-<tr>
-<td class="text-left">⌘ + L:</td>
-<td class="text-left">Login / logout</td>
-</tr>
-
-</tbody>
-</table>
-
+    <h4> Step-6: The moment of truth…</h4>
+    <p> To create a new comic book <span class="code">my-awesome-new-comics</span> with say 24 pages: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza new my-awesome-new-comics --leafs 12 --template comics </p>
+    </div>
+    <p>
+      Bookiza will scaffold a new project with 12 fresh leafs (24 pages) inside the <span class="code">manuscript/</span> folder and apply the template layout of a <span class="code">comics</span>.
+    </p>
+    <p>
+      It will then proceed to install all the nodejs dependencies for your project and then seek your confirmation to commit the project into a Github repository. Type <span class="code">yes</span> when it does.
+    </p>
+    <p> Boom! </p>
+    <p> <span class="code">CD</span> into <span class="code">my-awesome-new-comics</span>, and start: </p>
+    <div class="terminal turnoff">
+      <p> $ bookiza server </p>
+    </div>
   </div>
 </div>

@@ -1,18 +1,14 @@
-<div class="leaf ">
+<div class="leaf">
   <div class="inner justify ">
-    <h4> Step 4: Install Nodejs</h4>
-    <p> Node is a JavaScript runtime built on Chrome's <a href="https://developers.google.com/v8/">V8 JavaScript engine</a>. It comes with a <span class="code">node package manager</span> <a href="https://www.npmjs.com/">npm</a> that can be used to install libraries locally.</p>
-    <p> To set it up:</p>
+    <h4> Step-3: Coupling with Github </h4>
+    <p> Download, install, and launch <a href="https://desktop.github.com/">Github for desktop</a>. If you don’t have a Github account <a href="https://github.com">register</a> yourself now to complete the app setup. </p>
+    <p> Next we're going to couple <span class="code">git-scm</span> with the Github account. Replace the example name and email address in the following steps with the ones you used for your Github account. </p>
     <div class="terminal turnoff">
-      <p> $ brew update </p>
-
-      <p> $ brew install node </p>
+      <p>$ git config --global user.name "YOUR NAME"</p>
+      <p>$ git config --global user.email "YOUR@EMAIL.com" </p>
+      <p>$ ssh-keygen -t rsa -C "YOUR@EMAIL.com" </p>
     </div>
-    <p> Check if correct version installed:</p>
-    <div class="terminal turnoff">
-      <p> $ brew info node </p>
-      <p> node: stable 6.2.0 (bottled), HEAD</p>
-    </div>
-    <p> Next, let's install the <a href="http://bookiza.io">Bookiza Framework</a>.</p>
+    <p> The last command will generate an SSH key for your Github account. Copy and paste the output of the following command <a href="https://github.com/settings/ssh">over here</a> on Github. </p>
+    <div class="terminal turnoff"> $ cat ~/.ssh/id_rsa.pub </div>
   </div>
 </div>

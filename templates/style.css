@@ -203,3 +203,7 @@ ol {
 .italics{
   font-style: italic;
 }
+
+.white-text{
+	color: white;
+}
