@@ -1,5 +1,5 @@
 # Official-Handbook
-An official guide to writing & publishing [Superbooks](https://bubblin.io/docs/format) on wen. This book was initially written by hand and then later baked with [Bookiza Abelone](https://bookiza.io) for sanity.
+An official guide to writing & publishing [Superbooks](https://bubblin.io/docs/format) on web. This book was initially written by hand and then later baked with [Bookiza Abelone](https://bookiza.io) for sanity.
 
 ## Live render
 
