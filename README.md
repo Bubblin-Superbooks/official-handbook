@@ -1,8 +1,9 @@
 # Official-Handbook
-An official guide to writing & publishing [superbooks](https://bubbl.in/faq). This book was initially written by hand and then later baked with [Bookiza](http://bookiza.io) - the "book reification" framework.
+An official guide to writing & publishing [Superbooks](https://bubblin.io/docs/format) on wen. This book was initially written by hand and then later baked with [Bookiza Abelone](https://bookiza.io) for sanity.
 
 ## Live render
-The book is rendered here: [Official Handbook](https://bubbl.in/cover/official-handbook-by-marvin-danig)
+
+The book is rendered here: [Official Handbook](https://bubblin.io/cover/official-handbook-by-marvin-danig)
 
 ## Hack & host
 
@@ -19,20 +20,20 @@ In your local:
 
 ```
 
-Read the [bookiza documentation](https://bookiza.github.io/docs/) for more.
+Read the [Bookiza Documentation](https://bubblin.io/bookiza/docs/) for more.
 
 # Support
 
-Superbooks are generally [supported](https://bubbl.in/support) everywhere i.e. all devices, all desktops and all browsers. However, quirky behavior does appear from time to time and it is then best to report [issue](https://github.com/bookiza/bookiza/issues) immediately. 
+Superbooks are generally [supported](https://bubblin.io/support) everywhere i.e. all devices, all desktops and all browsers. However, quirky behavior may appear from time to time and then best recourse is to report the [issue](https://github.com/bookiza/bookiza/issues) on Github immediately with a screeen-grab. 
 
-Note: Despite ubiquity, the effort with superbooks points to mostly yielding best reading experience on tablets: i.e. iPads(iOS 7+), Kindle 3 (Silk) and Android 5.0+ phablets. Because, well, even though it's great to support desktops, smartphones, TVs and whatnot, the most ideal situation and surface for reading books is the tablet.
+Note: Despite ubiquity, the effort with superbooks points to mostly yielding best reading experience on tablets: i.e. iPads(iOS 7+), Kindle 3 (Silk) and Android 5.0+ phablets. Because, well, even though it's great to support desktops, smartphones, TVs and whatnot, the most ideal situation and surface for reading books is a tablet.
 
 
 ## Quick info:
 
-- Bubblin is a production substrate for Superbooks. Read [more](https://bubbl.in/about).
+- Bubblin is a production substrate for Superbooks. Read [more](https://bubblin.io/about).
 
-- Superbook is a responsive container that holds your book. Read [more](https://bubbl.in/faq) 
+- Superbook is a responsive container that holds the story of your book. Read [more](https://bubblin.io/docs/intoduction) 
 
 #### How it works
 
@@ -55,9 +56,9 @@ Tip: You can use [rawgit i.e. Github with proper CONTENT-TYPE headers](https://r
 
 
 ## The Project
-This project was initially generated using [bookiza bash plugin](https://github.com/bookiza/bookiza/tree/master/bash) i.e. with command `$ bookiza new Official-Handbook 30`. 
+This project was initially generated using [bookiza bash plugin](https://github.com/bookiza/bookiza/tree/master/bash) i.e. with command `$ bookiza new official-handbook --leafs 30`. 
 
-The bash plugin is now deprecated.
+> Notice: The bash plugin is now deprecated.
 
 ## TODOs:
 List of things to probably do (and would appreciate immediate help on):
